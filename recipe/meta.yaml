@@ -6,6 +6,7 @@ package:
   version: {{ version }}
 
 source:
+  # see also https://github.com/dbt-labs/snowplow-python-tracker/commit/bf630807ab93326ada84044a06a77ce2e9ce7b33
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: acabf7572db0e7f5cbf6983d495eef54081f71be392330eb3aadb9ccb39daaa4
 
@@ -35,7 +36,7 @@ test:
 
 about:
   home: https://www.getdbt.com/
-  # The source code is only avaialble her https://pypi.org/project/minimal-snowplow-tracker/#history
+  dev_url: https://github.com/dbt-labs/snowplow-python-tracker
   doc_url: https://pypi.org/project/minimal-snowplow-tracker/
   summary: A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
   description: |

@@ -38,9 +38,9 @@ about:
   home: https://www.getdbt.com/
   dev_url: https://github.com/dbt-labs/snowplow-python-tracker
   doc_url: https://pypi.org/project/minimal-snowplow-tracker/
-  summary: A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
+  summary: Snowplow event tracker for Python
   description: |
-    A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games
+    With this tracker you can collect event data from your Python-based applications, games or Python web servers/frameworks.
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE.txt
